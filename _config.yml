@@ -4,8 +4,8 @@
 
 # Site
 title: William Guo 
-subtitle: A Web Developer Blog
-description: ASP.NET MVC
+subtitle: A Web Developer's Blog
+description: All things about web development
 author: William Guo
 language: en
 timezone:
@@ -77,4 +77,28 @@ feed:
   path: atom.xml
   limit: 20
   hub:
+
 disqus_shortname: peikaiguo
+
+# minos start
+logo:
+  text: William Guo
+
+search:
+    type: insight
+
+menu:
+  Archives: /archives
+  Categories: /categories
+  Tags: /tags
+  About: /about
+  
+article:
+  readtime: false
+  highlight: atom-one-light
+
+navbar_links:
+  GitHub:
+    icon: fab fa-github
+    url: https://github.com/ppoffice/hexo-theme-minos
+# minos end
